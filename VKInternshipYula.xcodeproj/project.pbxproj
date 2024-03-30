@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B403BBBD2BB820EC00D4C03B /* VKInternshipYulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBBC2BB820EC00D4C03B /* VKInternshipYulaApp.swift */; };
+		B403BBBF2BB820EC00D4C03B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBBE2BB820EC00D4C03B /* ContentView.swift */; };
+		B403BBC12BB820EE00D4C03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B403BBC02BB820EE00D4C03B /* Assets.xcassets */; };
+		B403BBC42BB820EE00D4C03B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B403BBC32BB820EE00D4C03B /* Preview Assets.xcassets */; };
+		B403BBCE2BB820EE00D4C03B /* VKInternshipYulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBCD2BB820EE00D4C03B /* VKInternshipYulaTests.swift */; };
+		B403BBD82BB820EE00D4C03B /* VKInternshipYulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBD72BB820EE00D4C03B /* VKInternshipYulaUITests.swift */; };
+		B403BBDA2BB820EE00D4C03B /* VKInternshipYulaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBD92BB820EE00D4C03B /* VKInternshipYulaUITestsLaunchTests.swift */; };
+		B403BBE72BB8211F00D4C03B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBE62BB8211F00D4C03B /* NetworkManager.swift */; };
+		B403BBE92BB8216D00D4C03B /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBE82BB8216D00D4C03B /* ServiceModel.swift */; };
+		B403BBEB2BB82A2200D4C03B /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403BBEA2BB82A2200D4C03B /* ServiceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B403BBCA2BB820EE00D4C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B403BBB12BB820EC00D4C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B403BBB82BB820EC00D4C03B;
+			remoteInfo = VKInternshipYula;
+		};
+		B403BBD42BB820EE00D4C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B403BBB12BB820EC00D4C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B403BBB82BB820EC00D4C03B;
+			remoteInfo = VKInternshipYula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B403BBB92BB820EC00D4C03B /* VKInternshipYula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKInternshipYula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B403BBBC2BB820EC00D4C03B /* VKInternshipYulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKInternshipYulaApp.swift; sourceTree = "<group>"; };
+		B403BBBE2BB820EC00D4C03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B403BBC02BB820EE00D4C03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B403BBC32BB820EE00D4C03B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B403BBC92BB820EE00D4C03B /* VKInternshipYulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKInternshipYulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B403BBCD2BB820EE00D4C03B /* VKInternshipYulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKInternshipYulaTests.swift; sourceTree = "<group>"; };
+		B403BBD32BB820EE00D4C03B /* VKInternshipYulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKInternshipYulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B403BBD72BB820EE00D4C03B /* VKInternshipYulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKInternshipYulaUITests.swift; sourceTree = "<group>"; };
+		B403BBD92BB820EE00D4C03B /* VKInternshipYulaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKInternshipYulaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B403BBE62BB8211F00D4C03B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B403BBE82BB8216D00D4C03B /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		B403BBEA2BB82A2200D4C03B /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B403BBB62BB820EC00D4C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBC62BB820EE00D4C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBD02BB820EE00D4C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B403BBB02BB820EC00D4C03B = {
+			isa = PBXGroup;
+			children = (
+				B403BBBB2BB820EC00D4C03B /* VKInternshipYula */,
+				B403BBCC2BB820EE00D4C03B /* VKInternshipYulaTests */,
+				B403BBD62BB820EE00D4C03B /* VKInternshipYulaUITests */,
+				B403BBBA2BB820EC00D4C03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B403BBBA2BB820EC00D4C03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B403BBB92BB820EC00D4C03B /* VKInternshipYula.app */,
+				B403BBC92BB820EE00D4C03B /* VKInternshipYulaTests.xctest */,
+				B403BBD32BB820EE00D4C03B /* VKInternshipYulaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B403BBBB2BB820EC00D4C03B /* VKInternshipYula */ = {
+			isa = PBXGroup;
+			children = (
+				B403BBBC2BB820EC00D4C03B /* VKInternshipYulaApp.swift */,
+				B403BBBE2BB820EC00D4C03B /* ContentView.swift */,
+				B403BBC02BB820EE00D4C03B /* Assets.xcassets */,
+				B403BBC22BB820EE00D4C03B /* Preview Content */,
+				B403BBE62BB8211F00D4C03B /* NetworkManager.swift */,
+				B403BBE82BB8216D00D4C03B /* ServiceModel.swift */,
+				B403BBEA2BB82A2200D4C03B /* ServiceView.swift */,
+			);
+			path = VKInternshipYula;
+			sourceTree = "<group>";
+		};
+		B403BBC22BB820EE00D4C03B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B403BBC32BB820EE00D4C03B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B403BBCC2BB820EE00D4C03B /* VKInternshipYulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B403BBCD2BB820EE00D4C03B /* VKInternshipYulaTests.swift */,
+			);
+			path = VKInternshipYulaTests;
+			sourceTree = "<group>";
+		};
+		B403BBD62BB820EE00D4C03B /* VKInternshipYulaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B403BBD72BB820EE00D4C03B /* VKInternshipYulaUITests.swift */,
+				B403BBD92BB820EE00D4C03B /* VKInternshipYulaUITestsLaunchTests.swift */,
+			);
+			path = VKInternshipYulaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B403BBB82BB820EC00D4C03B /* VKInternshipYula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B403BBDD2BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYula" */;
+			buildPhases = (
+				B403BBB52BB820EC00D4C03B /* Sources */,
+				B403BBB62BB820EC00D4C03B /* Frameworks */,
+				B403BBB72BB820EC00D4C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKInternshipYula;
+			productName = VKInternshipYula;
+			productReference = B403BBB92BB820EC00D4C03B /* VKInternshipYula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B403BBC82BB820EE00D4C03B /* VKInternshipYulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B403BBE02BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYulaTests" */;
+			buildPhases = (
+				B403BBC52BB820EE00D4C03B /* Sources */,
+				B403BBC62BB820EE00D4C03B /* Frameworks */,
+				B403BBC72BB820EE00D4C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B403BBCB2BB820EE00D4C03B /* PBXTargetDependency */,
+			);
+			name = VKInternshipYulaTests;
+			productName = VKInternshipYulaTests;
+			productReference = B403BBC92BB820EE00D4C03B /* VKInternshipYulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B403BBD22BB820EE00D4C03B /* VKInternshipYulaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B403BBE32BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYulaUITests" */;
+			buildPhases = (
+				B403BBCF2BB820EE00D4C03B /* Sources */,
+				B403BBD02BB820EE00D4C03B /* Frameworks */,
+				B403BBD12BB820EE00D4C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B403BBD52BB820EE00D4C03B /* PBXTargetDependency */,
+			);
+			name = VKInternshipYulaUITests;
+			productName = VKInternshipYulaUITests;
+			productReference = B403BBD32BB820EE00D4C03B /* VKInternshipYulaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B403BBB12BB820EC00D4C03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B403BBB82BB820EC00D4C03B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B403BBC82BB820EE00D4C03B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B403BBB82BB820EC00D4C03B;
+					};
+					B403BBD22BB820EE00D4C03B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B403BBB82BB820EC00D4C03B;
+					};
+				};
+			};
+			buildConfigurationList = B403BBB42BB820EC00D4C03B /* Build configuration list for PBXProject "VKInternshipYula" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B403BBB02BB820EC00D4C03B;
+			productRefGroup = B403BBBA2BB820EC00D4C03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B403BBB82BB820EC00D4C03B /* VKInternshipYula */,
+				B403BBC82BB820EE00D4C03B /* VKInternshipYulaTests */,
+				B403BBD22BB820EE00D4C03B /* VKInternshipYulaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B403BBB72BB820EC00D4C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B403BBC42BB820EE00D4C03B /* Preview Assets.xcassets in Resources */,
+				B403BBC12BB820EE00D4C03B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBC72BB820EE00D4C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBD12BB820EE00D4C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B403BBB52BB820EC00D4C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B403BBEB2BB82A2200D4C03B /* ServiceView.swift in Sources */,
+				B403BBE72BB8211F00D4C03B /* NetworkManager.swift in Sources */,
+				B403BBBF2BB820EC00D4C03B /* ContentView.swift in Sources */,
+				B403BBBD2BB820EC00D4C03B /* VKInternshipYulaApp.swift in Sources */,
+				B403BBE92BB8216D00D4C03B /* ServiceModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBC52BB820EE00D4C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B403BBCE2BB820EE00D4C03B /* VKInternshipYulaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B403BBCF2BB820EE00D4C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B403BBDA2BB820EE00D4C03B /* VKInternshipYulaUITestsLaunchTests.swift in Sources */,
+				B403BBD82BB820EE00D4C03B /* VKInternshipYulaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B403BBCB2BB820EE00D4C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B403BBB82BB820EC00D4C03B /* VKInternshipYula */;
+			targetProxy = B403BBCA2BB820EE00D4C03B /* PBXContainerItemProxy */;
+		};
+		B403BBD52BB820EE00D4C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B403BBB82BB820EC00D4C03B /* VKInternshipYula */;
+			targetProxy = B403BBD42BB820EE00D4C03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B403BBDB2BB820EE00D4C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B403BBDC2BB820EE00D4C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B403BBDE2BB820EE00D4C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VKInternshipYula/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B403BBDF2BB820EE00D4C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VKInternshipYula/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B403BBE12BB820EE00D4C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKInternshipYula.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKInternshipYula";
+			};
+			name = Debug;
+		};
+		B403BBE22BB820EE00D4C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKInternshipYula.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKInternshipYula";
+			};
+			name = Release;
+		};
+		B403BBE42BB820EE00D4C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VKInternshipYula;
+			};
+			name = Debug;
+		};
+		B403BBE52BB820EE00D4C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ML8R56F8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = master.VKInternshipYulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VKInternshipYula;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B403BBB42BB820EC00D4C03B /* Build configuration list for PBXProject "VKInternshipYula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B403BBDB2BB820EE00D4C03B /* Debug */,
+				B403BBDC2BB820EE00D4C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B403BBDD2BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B403BBDE2BB820EE00D4C03B /* Debug */,
+				B403BBDF2BB820EE00D4C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B403BBE02BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B403BBE12BB820EE00D4C03B /* Debug */,
+				B403BBE22BB820EE00D4C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B403BBE32BB820EE00D4C03B /* Build configuration list for PBXNativeTarget "VKInternshipYulaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B403BBE42BB820EE00D4C03B /* Debug */,
+				B403BBE52BB820EE00D4C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B403BBB12BB820EC00D4C03B /* Project object */;
+}
